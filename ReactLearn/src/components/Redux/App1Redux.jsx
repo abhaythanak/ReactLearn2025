@@ -38,3 +38,21 @@ function App1Redux() {
 }
 
 export default App1Redux
+
+
+
+
+//   steps for redux
+
+// create  store
+// wrap main.js in provider and store={store}
+// createSlice
+// register reducer in store
+// like this 
+
+// import counterReducer from './features/counter/counterSlice'
+// export const store = configureStore({
+//     reducer: {
+//         counter: counterReducer
+//     },
+// })
